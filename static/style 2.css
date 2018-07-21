@@ -1,0 +1,32 @@
+body{ width:1060px; margin:200px auto; }
+path { stroke: #fff; }
+path:hover { opacity:0.9; }
+rect:hover { fill:rgb(253, 253, 253); }
+.axis { font: 10px sans-serif; }
+.legend tr{ border-bottom:1px solid grey; }
+.legend tr:first-child{ border-top:1px solid grey; }
+.axis path, .axis line { fill:none; stroke:#000; shape-rendering:crispEdges; }
+.x.axis path { display: none; }
+.legend{
+ margin-bottom:76px;
+ display:inline-block;
+ border-collapse: collapse;
+ border-spacing: 0px;
+}
+.legend td{padding:4px 5px; vertical-align:bottom;}
+.legendFreq, .legendPerc{ align:right; width:50px; }
+
+.bar rect{
+    fill: #29c09a;
+    font-size: 12px
+}
+
+path[class^='sm_state_'], path[class*='sm_state_']{
+    fill: rgb(15, 116, 82);
+}
+
+#map{
+    width:700px;
+    margin: 0 auto;
+
+}
